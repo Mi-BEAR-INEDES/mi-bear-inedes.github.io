@@ -139,3 +139,25 @@ body {
 .lang-switcher {
   text-align: right;
 }
+
+.paper-quote {
+    padding: 1.5rem 2rem;
+    border-left: 4px solid #2c3e50; /* Un azul oscuro académico */
+    position: relative;
+    line-height: 1.6;
+    color: white;
+    text-align: left;
+}
+
+.paper-quote cite {
+    display: block;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-family: 'Arial', sans-serif; /* Cambio a sans-serif para la referencia */
+    color: #7f8c8d;
+    text-align: left;
+}
+
+.paper-quote cite::before {
+    content: "— ";
+}
