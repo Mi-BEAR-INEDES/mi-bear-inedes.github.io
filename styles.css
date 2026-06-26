@@ -8,7 +8,7 @@
 
 body {
     font-family: consolas, sans-serif;
-    line-height: 1.6;
+    line-height: 1.2;
     color: #333;
     background-color: #f4f4f4;
 }
@@ -19,14 +19,14 @@ body {
 .container {
     max-width: 1200px; /* Ancho máximo para el contenido */
     margin: 0 auto;    /* Centra el contenedor */
-    padding: 0 20px;   /* Padding lateral para evitar que el contenido toque los bordes en móviles */
+    padding: 0 15px;   /* Padding lateral para evitar que el contenido toque los bordes en móviles */
     width: 100%;       /* Asegura que ocupe el 100% del ancho disponible */
 }
 
 /* Sección de Ancho Completo */
 .full-width-section {
     width: 100%;
-    padding: 5px 0; /* Padding vertical por defecto */
+    padding: 3px 0; /* Padding vertical por defecto */
     text-align: center;
 }
 
@@ -36,38 +36,38 @@ body {
 .hero {
     background-color: #007bff;
     color: white;
-    padding: 5px 0;
+    padding: 3px 0;
     margin-top: 0;
 }
 
 .hero h1 {
-    font-size: 2.5em;
-    margin-bottom: 5px;
-    margin-top: 0; 
+    font-size: 1.5em;
+    margin-bottom: 2px;
+    margin-top: 2; 
 }
 
 /* Sección de Contenido (Abstract y Bibliografía) */
 .content-section {
     background-color: white;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 3px solid #ddd;
 }
 
 .content-section h2 {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     margin-top: 0; 
     color: #007bff;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .content-section p, .content-section ul {
     text-align: left; /* Alineación del texto dentro del container */
-    max-width: 800px; /* Ancho máximo del texto para mejor lectura */
+    max-width: 1200px; /* Ancho máximo del texto para mejor lectura */
     margin-left: auto;
     margin-right: auto;
 }
 
 .bibliography-section ul {
-    list-style: disc inside;
+    list-style: none;
     padding-left: 0; /* Asegura que la lista se alinee correctamente */
 }
 
@@ -84,7 +84,7 @@ body {
 .map-responsive {
     /* Esta técnica usa padding-bottom para mantener una proporción de aspecto 16:9 o similar */
     overflow: hidden;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio (9/16 * 100) */
+    padding-bottom: 50%; /* 16:9 Aspect Ratio (9/16 * 100) */
     position: relative;
     height: 0;
     margin-top: 10px; /* Espacio entre el título y el mapa */
